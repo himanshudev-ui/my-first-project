@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu.Dev</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Container for content */
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+
+        /* Subheading tag */
+        .tagline {
+            color: #ff4757;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        /* Main Heading */
+        h1 {
+            font-size: 2.5rem;
+            color: #1e272e;
+            margin-top: 0;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        h1 span {
+            color: #2f3542;
+        }
+
+        /* Services Grid Layout */
+        .services-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        /* Professional Card design */
+        .card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+            width: 260px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            text-align: left;
+        }
+
+        /* Hover effect like top tech sites */
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Icon styling placeholder */
+        .card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin: 0 0 10px 0;
+            color: #1e272e;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            margin: 0;
+            color: #57606f;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p class="tagline">Our Services</p>
+        <h1>We are Flexible to <span>Provide You Best</span></h1>
+
+        <div class="services-grid">
+            <!-- Web Development Card -->
+            <div class="card">
+                <div class="icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>Building responsive, fast, and highly secure web applications tailored to your business scale.</p>
+            </div>
+
+            <!-- App Development Card -->
+            <div class="card">
+                <div class="icon">📱</div>
+                <h3>App Development</h3>
+                <p>Designing and crafting seamless native or cross-platform mobile apps with premium UX.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
